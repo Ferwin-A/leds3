@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Neon IoT Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', sans-serif;
+background: radial-gradient(circle at top, #08001a, #0d0025, #000);
+color: #e0e0ff;
+}
+
+
+header {
+text-align: center;
+padding: 25px;
+font-size: 30px;
+font-weight: bold;
+color: #7b5bff;
+text-shadow: 0 0 10px #7b5bff;
+letter-spacing: 1px;
+}
+
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+padding-bottom: 50px;
+}
+
+
+.panel {
+background: rgba(20, 0, 40, 0.7);
+border: 1px solid rgba(140, 90, 255, 0.4);
+border-radius: 18px;
+padding: 25px;
+margin-bottom: 25px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 20px rgba(140, 90, 255, 0.2);
+}
+
+
+h2 {
+color: #b286ff;
+margin-bottom: 12px;
+text-shadow: 0 0 8px #b286ff;
+}
+
+
+button {
+width: 48%;
+padding: 12px;
+font-size: 17px;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+margin-bottom: 10px;
+transition: 0.2s;
+font-weight: bold;
+}
+
+
+.on {
+background: #4dffb8;
+color: #000;
+box-shadow: 0 0 10px #4dffb8;
+}
+
+
+.on:hover { box-shadow: 0 0 20px #4dffb8; }
+
